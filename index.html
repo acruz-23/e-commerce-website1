@@ -11,34 +11,75 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/commerce.css" />
-  </head >
-  <body class="container-md m-3">
-    <header class=>
-      <h1 class="fw-bolder">Main Page</h1>
-      <nav>
-        <ul>
-          <!-- registration.html accessed through login.html -->
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./products.html">Products</a></li>
-          <li><a href="./login.html">My Account</a></li>
-          <li><a href="./checkout.html">checkout</a></li>
-        </ul>
-      </nav>
+  </head>
+  <body>
+    <header>
+      <div class="container m-xs-1 m-sm-3 m-lg-5">
+        <h1 class="fw-bolder">Main Page</h1>
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="./images/Ai-logo-grayscale-eye-cutout.webp"
+              alt="AI Robots Logo"
+              width="30"
+              height="30"
+              class="d-inline-block align-top"
+            />AI Robots</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./products.html" class="nav-link">Products</a>
+              </li>
+              <li class="nav-item">
+                <a href="./login.html" class="nav-link">My Account</a>
+              </li>
+              <li class="nav-item">
+                <a href="./checkout.html" class="nav-link">checkout</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
     <!-- diff b/w container and container fluid? -->
-    <main class="p-2">
+    <main class="container m-xs-1 m-sm-3 m-lg-5">
       <carousel></carousel>
       <div class="row">
         <div class="col-sm-5 my-auto text-center">
           <p>Robot Description 1</p>
         </div>
         <div class="col-sm-6 offset-sm-1">
-          <img src="./images//White-world-and-yellow-handmade-robot.jpg" alt="Toy robot looking at a Globe." class="img-fluid"/>
+          <img
+            src="./images//White-world-and-yellow-handmade-robot.jpg"
+            alt="Toy robot looking at a Globe."
+            class="img-fluid"
+          />
         </div>
       </div>
       <div class="row mt-5">
         <div class="col-sm-5 float-left">
-          <img src="./images/Woodenver-wooden-robot-toy-environmentally-friendly-toys-for-children.jpg" alt="Wooden Robot Looking Right" class="img-fluid"/>
+          <img
+            src="./images/Woodenver-wooden-robot-toy-environmentally-friendly-toys-for-children.jpg"
+            alt="Wooden Robot Looking Right"
+            class="img-fluid"
+          />
         </div>
         <div class="col-sm-6 offset-1 my-auto text-center">
           <p>Robot Description 2</p>
