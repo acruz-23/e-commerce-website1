@@ -11,10 +11,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/commerce.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Main Page</h1>
+  </head >
+  <body class="container-md m-3">
+    <header class=>
+      <h1 class="fw-bolder">Main Page</h1>
       <nav>
         <ul>
           <!-- registration.html accessed through login.html -->
@@ -25,7 +25,28 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <!-- diff b/w container and container fluid? -->
+    <main class="p-2">
+      <carousel></carousel>
+      <div class="row">
+        <div class="col-sm-5 my-auto text-center">
+          <p>Robot Description 1</p>
+        </div>
+        <div class="col-sm-6 offset-sm-1">
+          <img src="./images//White-world-and-yellow-handmade-robot.jpg" alt="Toy robot looking at a Globe." class="img-fluid"/>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-sm-5 float-left">
+          <img src="./images/Woodenver-wooden-robot-toy-environmentally-friendly-toys-for-children.jpg" alt="Wooden Robot Looking Right" class="img-fluid"/>
+        </div>
+        <div class="col-sm-6 offset-1 my-auto text-center">
+          <p>Robot Description 2</p>
+        </div>
+      </div>
+    </main>
+    <!-- remember to adjust col-size for responsiveness -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
