@@ -14,57 +14,53 @@
   </head>
   <body>
     <header>
-      <div class="container mx-auto">  
-        <!-- <h1 class="fw-bolder">Main Page</h1> -->
-          <!-- nav start -->
-        <nav
-          class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary"
-        >
-        
-            <a class="navbar-brand" href="index.html">
-              <img
-                src="./images/ai-logo-grayscale-darker-eyecutout.webp"
-                alt="AI Robots Logo"
-                width="35"
-                height="30"
-                class="d-inline-block align-top logo mx-3"
-              />AI Robots</a
-            >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+      <!-- Nav start -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="./images/Ai-logo-grayscale-eye-cutout.webp"
+              alt="AI Robots Logo"
+              width="35"
+              height="30"
+              class="d-inline-block align-top logo mx-3"
+            />AI Robots</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a href="./index.html" class="nav-link active">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./products.html" class="nav-link">Products</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./login.html" class="nav-link">My Account</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./checkout.html" class="nav-link">Checkout</a>
-                </li>
-              </ul>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link  active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./products.html" class="nav-link">Products</a>
+              </li>
+              <li class="nav-item">
+                <a href="./login.html" class="nav-link">My Account</a>
+              </li>
+              <li class="nav-item">
+                <a href="./checkout.html" class="nav-link">Checkout</a>
+              </li>
+            </ul>
           </div>
-        </nav>
+        </div>
+      </nav>
       </div>
     </header>
     <!-- diff b/w container and container fluid? -->
     <main>
-      <div class="container mx-auto pt-0 pl-xs-2 pr-xs-2 pl-md-4 pl-md-4 pr-md-4 pl-lg-6 pr-lg-6">
+      <div class="container-fluid p-0">
         <!-- Carousel Start -->
         <div
           id="carouselWelcome"
@@ -136,6 +132,8 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+      </div>
+      <div class="container">
         <!-- content start -->
         <div class="row">
           <div class="col-sm-5 my-auto text-center">
@@ -161,7 +159,7 @@
             <p>Robot Description 2</p>
           </div>
         </div>
-        <div class="card">
+        <!-- <div class="card">
           <div class="row g-0">
               <div class="col">
                       <img src="./images/vision-kit-closeup.png" alt="Closeup of the Google Vision Kit Internals">
@@ -172,7 +170,7 @@
                       </div>
                </div>
           </div>
-        </div>
+        </div> -->
     <!-- remember to adjust col-size for responsiveness -->
       </div>
     </main>  
