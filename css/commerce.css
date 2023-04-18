@@ -1,12 +1,27 @@
+main {
+    background-color: red;
+}
 .row, [class*="col-"], h1 {
     border-width: 2px;
     border-color: black;
     border-style: solid;
+}
+h1 {
+    margin-top: 20px;
 }
 .logo {
     margin: 0 5px 0 5px;
 }
 .carousel-item {
 
-    max-height: 750px;
+    max-height: 800px;
+}
+.card{
+    margin: 5;
+    col-md-4    
+    col-sm-6
+}
+
+.card-footer{
+    align-items: end;
 }
