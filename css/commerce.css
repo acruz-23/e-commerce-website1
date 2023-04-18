@@ -3,3 +3,10 @@
     border-color: black;
     border-style: solid;
 }
+.logo {
+    margin: 0 5px 0 5px;
+}
+.carousel-item {
+
+    max-height: 750px;
+}
