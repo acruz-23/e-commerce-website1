@@ -1,21 +1,43 @@
 main {
-    background-color: red;
+    background-color: white;
 }
+
+.card {
+    box-shadow: 0 0 100px rgba(100,100,100, 0.5)
+}
+
+.navbar {
+    background-color: #0091FF;
+}
+
+.nav-pills > li > a:hover, .nav-pills > li > a:focus {
+    color:black;
+}
+
+.nav-pills > li > a{
+    color: white;
+}
+
+#navbarSupportedContent > .nav-pills > .nav-item > .active {
+    background-color: #ffc300;
+    color:gray;
+}
+#imghand-carousel, #imgrecog-carousel, #imgyellow-carousel {
+    height: 200px;
+  background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.25));
+    
+}
+/* 
 .row, [class*="col-"], h1 {
     border-width: 2px;
     border-color: black;
     border-style: solid;
-}
+} */
 
-.logo {
-    
-}
 .carousel-item {
    max-height: 90vh;
 }
-.card {
-    margin: 5;
-}
+
 input:invalid {
     box-shadow: 0 0 5px 1px red;
 }
