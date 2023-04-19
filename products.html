@@ -14,6 +14,7 @@
   </head>
   <body>
     <header>
+      <!-- Nav start -->
       <nav class="navbar navbar-expand-md navbar-dark bg-primary">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
@@ -45,8 +46,19 @@
               <li class="nav-item">
                 <a href="./products.html" class="nav-link active">Products</a>
               </li>
-              <li class="nav-item">
-                <a href="./login.html" class="nav-link">My Account</a>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  >My Account</a
+                >
+                <div class="dropdown-menu">
+                  <a href="./login.html" class="dropdown-item">Login</a>
+                  <a href="./registration.html" class="dropdown-item"
+                    >Register</a
+                  >
+                </div>
               </li>
               <li class="nav-item">
                 <a href="./checkout.html" class="nav-link">Checkout</a>
@@ -59,7 +71,7 @@
     <main>
       <div class="container mx-auto">
         <h1 class="fw-bolder">Products</h1>
-        <div class="row">
+        <div class="row gy-4">
           <div class="col-sm-6 col-md-4">
             <div class="card h-100">
               <img
@@ -69,13 +81,57 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Classic Robot</h5>
-                <p class="card-text">Robot Body.</p>
+                <p class="card-text">
+                  Our classic handmade Robot in an iconic yellow body. Tells
+                  stories based on what it sees.
+                </p>
               </div>
               <div class="card-footer">
                 <a href="#" class="btn btn-primary">Add to Cart</a>
               </div>
             </div>
           </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card h-100">
+              <img
+                class="card-img-top"
+                src="./images/music-robot-toy-44745031.jpg"
+                alt="Musical Robot with drum"
+              />
+              <div class="card-body">
+                <h5 class="card-title">SoundBot</h5>
+                <p class="card-text">
+                  This Robot is all about sound. Hear new, exciting, music
+                  combinations based on what it sees and hears.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <div class="card h-100">
+              <img
+                class="card-img-top"
+                src="./images/handyman-Robot-maintenance-concept-creative-design-mechanic-790790974.jpg"
+                alt="Robot holding a wrench"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Handyman Robot</h5>
+                <p class="card-text">
+                  This little Robot can fix anything... and it knows a few facts
+                  too. Use it too learn interesting tidbits about your
+                  environment.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
           <div class="col-sm-6 col-md-4">
             <div class="card h-100">
               <img
@@ -87,8 +143,46 @@
                 <h5 class="card-title">Smart Globe</h5>
                 <p class="card-text">
                   Our Smart Globe is designed to work with our Robots. Give it a
-                  spin and our Robots will tell you stories from all over the
-                  world.
+                  spin and see how Robots respond.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <div class="card h-100">
+              <img
+                class="card-img-top"
+                src="./images/stock-vector-set-of-different-cartoon-vector-toys-145850354.jpg"
+                alt="Classic Robot in a wooden style comming soon"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Everything Sticker Pack</h5>
+                <p class="card-text">
+                  Bring the world to you. See how our Robots interact with each
+                  sticker.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <div class="card h-100">
+              <img
+                class="card-img-top"
+                src="./images/stock-vector-robot-toys-vector-characters-set-colorful-kids-robots-elements-with-friendly-faces-isolated-in-1157451025.jpg"
+                alt="Classic Robot in a wooden style comming soon"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Robot Friends Sitcker Pack</h5>
+                <p class="card-text">
+                  See what our Robots have to say about all their Robot friends.
                 </p>
               </div>
               <div class="card-footer">
@@ -106,61 +200,14 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Woodland Robot</h5>
-                <p class="card-text">Our Classic Robot in a Wooden Body.</p>
+                <p class="card-text">
+                  Our Classic Robot in a wooden body. Has new stories to tell.
+                </p>
               </div>
               <div class="card-footer">
-                <a href="#" class="btn btn-primary">Comming Soon</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-4">
-            <div class="card h-100">
-              <img
-                class="card-img-top"
-                src="./images/Woodenver-wooden-robot-toy-environmentally-friendly-toys-for-children.jpg"
-                alt="Classic Robot in a wooden style comming soon"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Woodland Robot</h5>
-                <p class="card-text">Our Classic Robot in a Wooden Body.</p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary">Comming Soon</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-4">
-            <div class="card h-100">
-              <img
-                class="card-img-top"
-                src="./images/Woodenver-wooden-robot-toy-environmentally-friendly-toys-for-children.jpg"
-                alt="Classic Robot in a wooden style comming soon"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Woodland Robot</h5>
-                <p class="card-text">Our Classic Robot in a Wooden Body.</p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary">Comming Soon</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-4">
-            <div class="card h-100">
-              <img
-                class="card-img-top"
-                src="./images/Woodenver-wooden-robot-toy-environmentally-friendly-toys-for-children.jpg"
-                alt="Classic Robot in a wooden style comming soon"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Woodland Robot</h5>
-                <p class="card-text">Our Classic Robot in a Wooden Body.</p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary">Comming Soon</a>
+                <button type="button" class="btn btn-primary" disabled>
+                  Coming Soon
+                </button>
               </div>
             </div>
           </div>
