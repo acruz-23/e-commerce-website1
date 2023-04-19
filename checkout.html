@@ -48,7 +48,7 @@
               <li class="nav-item dropdown">
                 <a
                   href="#"
-                  class="nav-link dropdown-toggle active"
+                  class="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                   >My Account</a
                 >
@@ -68,7 +68,283 @@
       </nav>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="container">
+        <!-- Cart Card -->
+        <div class="col-md-10 grid-margin stretch-card mx-auto">
+          <div class="card">
+            <div class="card-body p-5">
+              <h3 class="card-title">Cart</h3>
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Quantity</th>
+                      <th>Price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Classic Robot</td>
+                      <td>1</td>
+                      <td>$100</td>                    
+                    </tr>
+                    <tr>
+                      <td>Smart Globe</td>
+                      <td>1</td>
+                      <td>$50</td>        
+                    </tr>
+                    <tr>
+                      <td>Everything Sticker Pack</td>
+                      <td>2</td>
+                      <td>$50</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td>Total: </td>
+                      <td>$200</td>
+                      
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Form input start -->
+        <div class="col-md-10 grid-margin stretch-card mx-auto">
+          <div class="card">
+            <div class="card-body p-5">
+              <h3 class="card-title">Cart</h3>             
+              <form>
+                <div class="row gx-6">
+                  <div class="col-sm-6">
+                    <label for="FirstNameInput">First Name:</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="FirstNameInput"
+                      placeholder="First Name"
+                      required
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="LastNameInput">Last Name:</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="LastNameInput"
+                      placeholder="Last Name"
+                      required
+                    />
+                    
+                    <!-- <small id="emailHelp" class="form-text text-muted"
+                      >We'll never share your email with anyone else.</small
+                    > -->
+                  </div>
+                </div>
+                <div class="row gx-6">
+                  <div class="col-lg-6">
+                    <label for="phone">Phone Number: <span class="text-muted">(Optional)</span></label>
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="phone"
+                      name="phone"
+                      pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                      placeholder="+1 (XXX) XXX-XXXX"
+                    />
+                  </div>
+                  <div class="col-lg-6">
+                    <label for="emailInput">Email:</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="emailInput"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter email"
+                      required
+                    />
+                  </div>
+                </div>    
+                <div class="row gx-6">
+                  <div class="col-xl-6">
+                    <label for="address1">Address 1:</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="address1"
+                      placeholder="123 Main St."
+                      required
+                    />
+                    <!-- <small id="emailHelp" class="form-text text-muted"
+                      >We'll never share your email with anyone else.</small
+                    > -->
+                  </div>
+                  <div class="col-xl-6">
+                    <label for="address2">Address 2: <span class="text-muted">(optional)</span></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="address 2"
+                      placeholder="Apt., suite, floor, etc."
+                    />
+                  </div>
+                </div>
+                  
+                <div class="row gx-6 ">
+                  <div class="col-sm-4">
+                    <label for="State">State</label>
+                    <select
+                      required
+                      class="form-select"
+                      id="State">
+                      <option value="" selected>Select</option>
+                      <option value="AL">Alabama</option>
+                      <option value="AK">Alaska</option>
+                      <option value="AZ">Arizona</option>
+                      <option value="AR">Arkansas</option>
+                      <option value="CA">California</option>
+                      <option value="CO">Colorado</option>
+                      <option value="CT">Connecticut</option>
+                      <option value="DE">Delaware</option>
+                      <option value="DC">District Of Columbia</option>
+                      <option value="FL">Florida</option>
+                      <option value="GA">Georgia</option>
+                      <option value="HI">Hawaii</option>
+                      <option value="ID">Idaho</option>
+                      <option value="IL">Illinois</option>
+                      <option value="IN">Indiana</option>
+                      <option value="IA">Iowa</option>
+                      <option value="KS">Kansas</option>
+                      <option value="KY">Kentucky</option>
+                      <option value="LA">Louisiana</option>
+                      <option value="ME">Maine</option>
+                      <option value="MD">Maryland</option>
+                      <option value="MA">Massachusetts</option>
+                      <option value="MI">Michigan</option>
+                      <option value="MN">Minnesota</option>
+                      <option value="MS">Mississippi</option>
+                      <option value="MO">Missouri</option>
+                      <option value="MT">Montana</option>
+                      <option value="NE">Nebraska</option>
+                      <option value="NV">Nevada</option>
+                      <option value="NH">New Hampshire</option>
+                      <option value="NJ">New Jersey</option>
+                      <option value="NM">New Mexico</option>
+                      <option value="NY">New York</option>
+                      <option value="NC">North Carolina</option>
+                      <option value="ND">North Dakota</option>
+                      <option value="OH">Ohio</option>
+                      <option value="OK">Oklahoma</option>
+                      <option value="OR">Oregon</option>
+                      <option value="PA">Pennsylvania</option>
+                      <option value="RI">Rhode Island</option>
+                      <option value="SC">South Carolina</option>
+                      <option value="SD">South Dakota</option>
+                      <option value="TN">Tennessee</option>
+                      <option value="TX">Texas</option>
+                      <option value="UT">Utah</option>
+                      <option value="VT">Vermont</option>
+                      <option value="VA">Virginia</option>
+                      <option value="WA">Washington</option>
+                      <option value="WV">West Virginia</option>
+                      <option value="WI">Wisconsin</option>
+                      <option value="WY">Wyoming</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-4 mx-auto">
+                    <label for="zip">Zip Code:</label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="zip"
+                      placeholder="12345"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="row gx-6">
+                  <div class="col-12">
+                    <hr />
+                  </div>
+                  <div class="col-12">
+                    <h6>Payment Method</h6>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Credit
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        Debit
+                      </label>
+                    </div>
+                  </div>
+                  <div class="row gx-6">
+                    <div class="col-md-6">
+                      <label for="cardName">Name on Card:</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="cardName"
+                        placeholder="Name on Card"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="cardNumber">Card Number:</label>
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="cardNumber"
+                        placeholder="Number on Card"
+                        required
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="cardExp">Card Expiration:</label>
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="cardExp"
+                        placeholder="MM/YY"
+                        required
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="cardCVV">CVV:</label>
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="cardCVV"
+                        minlength="3"
+                        placeholder="••••"
+                        required
+                      />
+                    </div>
+
+                  </div>
+                  
+                </div>
+                <div class="row gx-6">
+                  <div class="fomrcol-12 mt-3">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"

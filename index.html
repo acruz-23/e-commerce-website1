@@ -73,116 +73,136 @@
     <main>
       <div class="container-fluid p-0">
         <!-- Carousel Start -->
-        <div
-          id="carouselWelcome"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselWelcome"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Welcome 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselWelcome"
-              data-bs-slide-to="1"
-              aria-label="Welcome 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselWelcome"
-              data-bs-slide-to="2"
-              aria-label="Welcome 3"
-            ></button>
+        <div class="col col-md-10 col-lg-10  grid-margin stretch-card mx-auto">
+          <div class="card">
+            <div class="card-body p-0">
+              <div
+                id="carouselWelcome"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselWelcome"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Welcome 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselWelcome"
+                    data-bs-slide-to="1"
+                    aria-label="Welcome 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselWelcome"
+                    data-bs-slide-to="2"
+                    aria-label="Welcome 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      class="d-block w-100"
+                      src="./images/main-robot-hand.jpg"
+                      alt="First slide"
+                    />
+                  </div>
+                  <!-- Include button to products -->
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100"
+                      src="./images/network-global-communication.jpg"
+                      alt="Second slide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100"
+                      src="./images/yellow-background-cute-yellow-handmade-robot-on-a-yellow-background-1281916345 - Copy.jpg"
+                      alt="Third slide"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  data-bs-target="#carouselWelcome"
+                  type="button"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  data-bs-target="#carouselWelcome"
+                  type="button"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                class="d-block w-100"
-                src="./images/main-robot-hand.jpg"
-                alt="First slide"
-              />
-            </div>
-            <!-- Include button to products -->
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="./images/network-global-communication.jpg"
-                alt="Second slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="./images/yellow-background-cute-yellow-handmade-robot-on-a-yellow-background-1281916345 - Copy.jpg"
-                alt="Third slide"
-              />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            data-bs-target="#carouselWelcome"
-            type="button"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            data-bs-target="#carouselWelcome"
-            type="button"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
       <div class="container">
         <!-- content start -->
-        <div class="row">
-          <div class="col-sm-5 my-auto text-center">
-            <p>Robot Description 1</p>
-          </div>
-          <div class="col-sm-6 offset-sm-1">
-            <img
-              src="./images//White-world-and-yellow-handmade-robot.jpg"
-              alt="Toy robot looking at a Globe."
-              class="img-fluid"
-            />
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-sm-5 float-left">
-            <img
-              src="./images/Woodenver-wooden-robot-toy-environmentally-friendly-toys-for-children.jpg"
-              alt="Wooden Robot Looking Right"
-              class="img-fluid"
-            />
-          </div>
-          <div class="col-sm-6 offset-1 my-auto text-center">
-            <p>Robot Description 2</p>
-          </div>
-        </div>
-        <!-- <div class="card">
-          <div class="row g-0">
-              <div class="col">
-                      <img src="./images/vision-kit-closeup.png" alt="Closeup of the Google Vision Kit Internals">
+        <div class="col-md-10 grid-margin stretch-card mx-auto">
+          <div class="card">
+            <div class="card-body p-5">
+              <h3 class="card-title">Cart</h3>
+              <div class="row">
+                <div class="col-sm-5 my-auto text-center">
+                  <p>Robot Description 1</p>
+                </div>
+                <div class="col-sm-6 offset-sm-1">
+                  <img
+                    src="./images//White-world-and-yellow-handmade-robot.jpg"
+                    alt="Toy robot looking at a Globe."
+                    class="img-fluid"
+                  />
+                </div>
               </div>
-              <div class="col-md-*">
-                      <div class="card-body">
-                         <p>Test of text</p>
-                      </div>
-               </div>
+            </div>
           </div>
-        </div> -->
-    <!-- remember to adjust col-size for responsiveness -->
+        </div>
+        <div class="col-md-10 grid-margin stretch-card mx-auto">
+          <div class="card">
+            <div class="card-body p-5">
+              <h3 class="card-title">Cart</h3>
+              <div class="row mt-5">
+                <div class="col-sm-5 float-left">
+                  <img
+                    src="./images/Woodenver-wooden-robot-toy-environmentally-friendly-toys-for-children.jpg"
+                    alt="Wooden Robot Looking Right"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-sm-6 offset-1 my-auto text-center">
+                  <p>Robot Description 2</p>
+                </div>
+              </div>
+              <!-- <div class="card">
+                <div class="row g-0">
+                    <div class="col">
+                            <img src="./images/vision-kit-closeup.png" alt="Closeup of the Google Vision Kit Internals">
+                    </div>
+                    <div class="col-md-*">
+                            <div class="card-body">
+                              <p>Test of text</p>
+                            </div>
+                    </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      <!-- remember to adjust col-size for responsiveness -->
       </div>
     </main>  
     <script

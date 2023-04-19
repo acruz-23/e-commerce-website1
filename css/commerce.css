@@ -12,6 +12,10 @@ main {
 }
 .carousel-item {
    max-height: 90vh;
-.card{
+}
+.card {
     margin: 5;
+}
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
 }
