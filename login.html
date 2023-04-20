@@ -10,6 +10,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/commerce.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -69,13 +75,15 @@
     <main>
       <div class="container">
         <!-- Form input start -->
-        <div class="col-md-10 grid-margin stretch-card mx-auto">
+        <div
+          class="col-md-8 col-lg-7 col-xl-6 grid-margin stretch-card mx-auto"
+        >
           <div class="card">
             <div class="card-body p-5">
               <h3 class="card-title text-center">Login</h3>
               <form>
                 <div class="row">
-                  <div class="col-md-8 col-lg-6 mx-auto">
+                  <div class="col-md-12 col-lg-10 mx-auto">
                     <label for="emailInput">Email:</label>
                     <input
                       type="email"
@@ -91,7 +99,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-8 col-lg-6 mx-auto">
+                  <div class="col-md-12 col-lg-10 mx-auto">
                     <label for="passwordInput">Password</label>
                     <input
                       type="password"
@@ -102,8 +110,8 @@
                     />
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-8 col-lg-6 mx-auto">
+                <div class="row mt-1">
+                  <div class="col-md-12 col-lg-10 mx-auto">
                     <input
                       type="checkbox"
                       class="form-check-input"
@@ -114,11 +122,9 @@
                     >
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-8 col-lg-6 mx-auto">
-                    <button type="submit" class="btn btn-primary">
-                      Submit
-                    </button>
+                <div class="row mt-1">
+                  <div class="col-md-12 col-lg-10 mx-auto">
+                    <button type="submit" class="btn">Submit</button>
                   </div>
                 </div>
               </form>
@@ -126,16 +132,15 @@
           </div>
         </div>
         <hr />
-        <div class="col-md-10 grid-margin stretch-card mx-auto">
+        <div
+          class="col-md-8 col-lg-7 col-xl-6 grid-margin stretch-card mx-auto"
+        >
           <div class="card">
             <div class="card-body p-4">
               <h4 class="card-title">Need an acount?</h4>
               <div class="row">
                 <div class="col-md-8 col-lg-6">
-                  <a
-                    href="./registration.html"
-                    class="btn btn-primary btn-sm"
-                    role="button"
+                  <a href="./registration.html" class="btn btn-sm" role="button"
                     >Register</a
                   >
                 </div>
