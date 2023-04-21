@@ -16,7 +16,6 @@ body {
 
 .card-footer a {
     margin-right: 31px;
-    padding-left: 100;
 }
 .btn {
     background-color: #248EFF;
@@ -76,7 +75,7 @@ body {
 }
 .carousel-caption h2 {
     opacity: 1;
-    color:whtie;
+    color:white;
     font-weight: bolder;
     font-size:2.3em;
 }
