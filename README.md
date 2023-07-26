@@ -1,5 +1,5 @@
 # e-commerce-website1
-
+Capstone 1. 
 Building my first e-commerce website.
 
 **_Purpose_**
